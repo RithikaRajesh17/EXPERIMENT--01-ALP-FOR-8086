@@ -83,57 +83,71 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
+```
+MOV AX,1235H
+MOV BX,1535H
+ADD AX,BX
+MOV [5000H],AX
 
-## Addition  of 8 bit ALP 
+
+MOV AX,1455H
+MOV BX,1345H
+SUB AX,BX
+MOV [5002H],AX
+
+
+MOV AX,2346H
+MOV BX,1123H
+MUL BX
+MOV [5004H],AX   
+
+
+MOV AX,1342H
+MOV BX,1565H
+MOV DX,0000H     
+DIV BX
+MOV [5006H],AX   
+```
+## output
+<img width="1888" height="932" alt="image" src="https://github.com/user-attachments/assets/8836b56a-00b6-4976-a53e-41f953f19ce5" />
+
+
+## Program for Logical Operators
+```
+org 100h
+
+
+MOV AX,1535H
+MOV BX,1345H
+AND AX,BX
+MOV [5000H],AX
+
+
+MOV AX,1245H
+MOV BX,1125H
+OR AX,BX
+MOV [5002H],AX
+
+
+MOV AX,1355H
+MOV BX,1245H
+XOR AX,BX
+MOV [5004H],AX
+
+
+MOV AX,1335H
+NOT AX
+MOV [5006H],AX
+
+ret
+
 ```
 
-MOV ax,2h
-
-MOV bx,24h
-
-add ax,bx
-
-```
-
-## Output  
-<img width="707" height="544" alt="image" src="https://github.com/user-attachments/assets/2ceffe3b-95d6-4f4d-b5c3-2217f2a56d67" />
+## output
 
 
-## Subtraction   of 8 bit numbers  ALP 
- ```
-MOV ax,2h
+<img width="1722" height="912" alt="image" src="https://github.com/user-attachments/assets/270cb0f0-4364-4746-becd-9bf1d52a40d9" />
 
-MOV bx,24h
-
-sub ax,bx
-```
-## Output  
-<img width="707" height="546" alt="image" src="https://github.com/user-attachments/assets/c2732e28-58b5-4b38-b80e-6e66d7136a2a" />
-
-## Multiplication alp 
-
-```
-MOV ax,2h
-
-MOV bx,24h
-
-mul ax
-```
- ## Output  
-<img width="702" height="554" alt="image" src="https://github.com/user-attachments/assets/5b57bb1d-ea7f-4a5a-b255-65a0f84e903e" />
-
-
-## Division alp 
-```
-MOV ax,2h
-
-MOV bx,24h
-
-div ax
-```
-## Output  
-
-<img width="705" height="540" alt="image" src="https://github.com/user-attachments/assets/c09c4dfa-eee5-4e39-90ea-e7848f6742c2" />
 
 ## Result :
  Thus to Write and execute ALP on fundamental arithmetic and logical operations are verified successfully.
