@@ -2,18 +2,11 @@
 ### Name :Rithika R
 ### Roll no:212224240136 
 ### Date of experiment :22-04-2026
-
-
-
-
-
 ## Aim: 
 
 To Write and execute ALP on fundamental arithmetic and logical operations
 
-## Components required:
-
-8086  emulator 
+## Components required:8086  emulator 
 
 ## Theory
 
@@ -23,8 +16,6 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
 2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
- 
- 
 3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
 4.	 Compile the program and check for the errors 
@@ -36,27 +27,10 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
 8.	 
 
-
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 
 
-
-
-
-
-
-
-
-
-
-9.	Click on emulate to start emulation 
-
-
-
-
-
-
-
+9.	Click on emulate to start emulation
 
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
 
@@ -88,20 +62,14 @@ MOV AX,1235H
 MOV BX,1535H
 ADD AX,BX
 MOV [5000H],AX
-
-
 MOV AX,1455H
 MOV BX,1345H
 SUB AX,BX
 MOV [5002H],AX
-
-
 MOV AX,2346H
 MOV BX,1123H
 MUL BX
 MOV [5004H],AX   
-
-
 MOV AX,1342H
 MOV BX,1565H
 MOV DX,0000H     
@@ -115,32 +83,22 @@ MOV [5006H],AX
 ## Program for Logical Operators
 ```
 org 100h
-
-
 MOV AX,1535H
 MOV BX,1345H
 AND AX,BX
 MOV [5000H],AX
-
-
 MOV AX,1245H
 MOV BX,1125H
 OR AX,BX
 MOV [5002H],AX
-
-
 MOV AX,1355H
 MOV BX,1245H
 XOR AX,BX
 MOV [5004H],AX
-
-
 MOV AX,1335H
 NOT AX
 MOV [5006H],AX
-
 ret
-
 ```
 
 ## output
