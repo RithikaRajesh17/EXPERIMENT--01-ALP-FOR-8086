@@ -1,4 +1,3 @@
-<img width="1562" height="950" alt="image" src="https://github.com/user-attachments/assets/4e4ed885-f3d7-4e5f-9e86-e7dda362072b" /># EXPERIMENT--01-ALP-FOR-8086
 ### Name :Rithika R
 ### Roll no:212224240136 
 ### Date of experiment :22-04-2026
