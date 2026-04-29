@@ -1,4 +1,4 @@
-# EXPERIMENT--01-ALP-FOR-8086
+<img width="1562" height="950" alt="image" src="https://github.com/user-attachments/assets/4e4ed885-f3d7-4e5f-9e86-e7dda362072b" /># EXPERIMENT--01-ALP-FOR-8086
 ### Name :Rithika R
 ### Roll no:212224240136 
 ### Date of experiment :22-04-2026
@@ -83,28 +83,38 @@ MOV [5006H],AX
 ## Program for Logical Operators
 ```
 org 100h
-MOV AX,1535H
-MOV BX,1345H
+MOV AX,4508H
+MOV BX,1234H
 AND AX,BX
 MOV [5000H],AX
-MOV AX,1245H
-MOV BX,1125H
+MOV AX,4508H
+MOV BX,1234H
 OR AX,BX
 MOV [5002H],AX
-MOV AX,1355H
-MOV BX,1245H
+MOV AX,4508H
+MOV BX,1234H
 XOR AX,BX
 MOV [5004H],AX
-MOV AX,1335H
+MOV AX,4508H
 NOT AX
 MOV [5006H],AX
+MOV AX,4508H
+MOV BX,1234H
+AND AX,BX
+NOT AX
+MOV [5008H],AX
+MOV AX,4508H
+MOV BX,1234H
+OR AX,BX
+NOT AX
+MOV [5010H],AX
 ret
 ```
 
 ## output
 
 
-<img width="1722" height="912" alt="image" src="https://github.com/user-attachments/assets/270cb0f0-4364-4746-becd-9bf1d52a40d9" />
+<img width="1562" height="950" alt="image" src="https://github.com/user-attachments/assets/251e9ec3-21d0-456d-8d8b-b3cad1b48714" />
 
 
 ## Result :
